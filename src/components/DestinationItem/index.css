@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+.card-img {
+  height: 150px;
+  width: 190px;
+  border-radius: 6px;
+}
+
+.place-name {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 15px;
+  justify-content: flex-start;
+}
